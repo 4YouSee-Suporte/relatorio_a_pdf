@@ -232,7 +232,7 @@ def verify_files(folder):
 
 
 if __name__ == '__main__':
-    from report_001.data_report_001 import *
+    from data_report_001.data_report_001 import *
     # TODO: Como verificar que player tenha enviado todos os playlogs?
     # TODO: Generar .csv vía API do 4yousee manager.
     # Antes de Executar, verifique:
