@@ -127,6 +127,7 @@ class Personal(FPDF):
         fill = False
         for row in rows:
             self.cell(offset_table)
+            print(f"\t\t\t\t\t{row[0]} - {row[1]}")
             self.cell(col_widths[0], 8, row[0], 0, 0, "C", fill)
             self.cell(col_widths[1], 8, row[1], 0, 0, "C", fill)
             # self.cell(col_widths[2], 8, row[2], 0, 0, "C", fill)
@@ -209,6 +210,7 @@ def filter_data(df, cliente, id_player):
         total += count_logs
         rows.append(row)
         start_date += delta
+    print("\n{}, player {}: {:,} playlogs".format(cliente, id_player, total))
     return rows
 
 
@@ -269,3 +271,5 @@ if __name__ == '__main__':
 
 
         pdf.output(f"{PASTA}/{PASTA}.pdf")
+        if path.exists(f"{PASTA}/{PASTA}.pdf"):
+            print(f"\nRelatório gerado com sucesso : {PASTA}/{PASTA}.pdf\n")
