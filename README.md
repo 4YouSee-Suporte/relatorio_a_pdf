@@ -1,6 +1,6 @@
 <h2 align="center">
 Script em Python para Geração de Relatório em PDF 💬🟩 <br>
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/4YouSee-Suporte/4yousee-sensors?style=social">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/4YouSee-Suporte/relatorio_a_pdf?style=social">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/4YouSee-Suporte?label=Follow%20me%20%3A%29&style=social">
 </h2>
 
